@@ -290,28 +290,5 @@ public class StrikkeSkap {
                 + ferdig;
     }
 
-    public static void main(String[] args) {
-        StrikkeSkap agnesSittSkap = new StrikkeSkap();
-        Prosjekt a = new Prosjekt("Zipper sweater", "genser", 15, 80, false);
-        Prosjekt b = new Prosjekt("navn", "jakke", 5, 150, true);
-        Prosjekt c = new Prosjekt("jacke", "jakke", 10, 150, true);
-        Prosjekt d = new Prosjekt("Siggi", "genser", 10, 150, false);
-        agnesSittSkap.addProsjekt(a);
-        agnesSittSkap.addProsjekt(b);
-        agnesSittSkap.addProsjekt(c);
-        agnesSittSkap.addProsjekt(d);
-
-        // System.out.println(agnesSittSkap.antallAv(agnesSittSkap.prosjekter, false));
-        // System.out.println(agnesSittSkap.meterStrikket());
-        // agnesSittSkap.setFerdigProsjekt(a);
-        // System.out.println(agnesSittSkap.meterStrikket());
-        agnesSittSkap.removeProsjekt(a);
-
-        // System.out.println(agnesSittSkap.antallAv(agnesSittSkap.jakker, false));
-        // System.out.println(c.getFerdigStilt());
-        // System.out.println(agnesSittSkap.seProsjekter(agnesSittSkap.uferdigeProsjekter,
-        // false));
-        System.out.println(agnesSittSkap.getProsjektInfo(a));
-
-    }
+    
 }
