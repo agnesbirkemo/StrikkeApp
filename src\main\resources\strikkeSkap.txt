@@ -1,0 +1,4 @@
+Sigurd	tilbehør	5	222	true
+sokker	sokker/tøfler	2	100	true
+cumulus bluse	genser	4	110	true
+a	tilbehør	11	111	true
